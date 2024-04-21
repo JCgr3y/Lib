@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #333;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button#toggleUsers {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 8px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#toggleUsers:hover {
+    background-color: #005f75;
+}
+
+#userList {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#userList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#userList ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+#userList ul li form {
+    display: inline;
+}
+
+#userList ul li form button {
+    padding: 6px 10px;
+    font-size: 12px;
+}

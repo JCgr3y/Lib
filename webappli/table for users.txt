@@ -1,0 +1,17 @@
+-- Table structure for table `users`
+CREATE TABLE `users` (
+  `user_id` INT PRIMARY KEY AUTO_INCREMENT,
+  `username` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `password` VARCHAR(255) NOT NULL,
+  -- Add other columns for user information as needed
+);
+
+-- Table structure for table `admins`
+CREATE TABLE `admins` (
+  `admin_id` INT PRIMARY KEY AUTO_INCREMENT,
+  `username` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `password` VARCHAR(255) NOT NULL,
+  -- Add other columns for admin information as needed
+);
